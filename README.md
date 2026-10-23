@@ -4,6 +4,8 @@ ForumHub API
 API REST desenvolvida em Java com Spring Boot para gerenciamento de tópicos de um fórum.
 Este projeto foi desenvolvido como parte do programa Oracle Next Education (ONE), uma iniciativa educacional da Oracle em parceria com a Alura, que tem como objetivo formar novos desenvolvedores nas áreas de programação, tecnologia e inovação.
 
+[![CI](https://github.com/GilvamOliveira/forumhub/actions/workflows/ci.yml/badge.svg)](https://github.com/GilvamOliveira/forumhub/actions/workflows/ci.yml)
+
 ----------
 
  *Tecnologias Utilizadas*
