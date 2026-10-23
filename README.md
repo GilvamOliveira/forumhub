@@ -40,4 +40,26 @@ As entidades são mapeadas para tabelas usando anotações do JPA.
 
 ---
 
+*Configuração*
+
+As credenciais não ficam no código. Defina as variáveis de ambiente antes de executar:
+
+DB_URL (opcional, padrão: jdbc:mysql://localhost:3306/challengehub)
+
+DB_USERNAME (opcional, padrão: root)
+
+DB_PASSWORD (obrigatória)
+
+JWT_SECRET (obrigatória)
+
+Exemplo no PowerShell:
+
+$env:DB_PASSWORD="sua-senha"
+
+$env:JWT_SECRET="uma-chave-longa-e-aleatoria"
+
+mvn spring-boot:run
+
+---
+
 
