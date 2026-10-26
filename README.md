@@ -4,6 +4,8 @@ ForumHub API
 API REST desenvolvida em Java com Spring Boot para gerenciamento de tópicos de um fórum.
 Este projeto foi desenvolvido como parte do programa Oracle Next Education (ONE), uma iniciativa educacional da Oracle em parceria com a Alura, que tem como objetivo formar novos desenvolvedores nas áreas de programação, tecnologia e inovação.
 
+**Estudo de caso:** [contexto, decisões técnicas e próximos passos](CASE_STUDY.md).
+
 ----------
 
  *Tecnologias Utilizadas*
@@ -12,9 +14,9 @@ Java 17
 
 Spring Boot
 
-Spring Security
+Spring Security (configuração em evolução)
 
-JWT (JSON Web Token)
+JWT (emissão de token)
 
 Spring Data JPA
 
