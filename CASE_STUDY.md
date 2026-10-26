@@ -27,10 +27,10 @@ O modelo `Topico` registra título, mensagem, autor, curso, status e data de cri
 ## Arquitetura
 
 ```mermaid
-flowchart LR
+flowchart TD
   C["Cliente"] -->|"POST /login"| A["AuthController"]
   A --> T["TokenService"]
-  T -->|"JWT assinado com HMAC256"| C
+  T --> J["JWT assinado com HMAC256"]
   C -->|"CRUD /topicos"| H["TopicoController"]
   H --> D["DTOs de entrada e saída"]
   H --> R["TopicoRepository"]
