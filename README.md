@@ -81,4 +81,4 @@ MIT. Veja [LICENSE](LICENSE).
 
 ---
 
-Autor: Gilvam Oliveira — [LinkedIn](https://www.linkedin.com/in/gilvam-oliveira/)
+Feito por mim — [LinkedIn](https://www.linkedin.com/in/gilvam-oliveira/)
